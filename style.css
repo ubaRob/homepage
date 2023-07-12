@@ -1,0 +1,23 @@
+h1 {
+  color: darkmagenta;
+}
+
+h2 {
+  color: darkorange;
+}
+
+section {
+  background: lightgoldenrodyellow;
+}
+
+footer {
+  background: lightpink;
+}
+
+body {
+  background: #94bda7;
+}
+
+.czerwony {
+  color: red;
+}
