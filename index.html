@@ -9,17 +9,26 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+      <a href="nauka-html.html">Nauka HTML</a>
+      <a href="nauka-css.html">Nauka CSS</a>
+      <a href="nauka-js.html">Nauka Java Script</a>
+      <a href="git.html">GIT</a>
+    </nav>
+  </header>
   <main>
     <header>
-      <h1>Robert Uba - Strona Domowa</h1>
+      <h1 id="top">Robert Uba - Strona Domowa</h1>
 
     </header>
     <section>
       <h2>Kim jestem?</h2>
+      <img src="charger-inside.jpg" alt="Zdjęcie Roba w Chargerze">
       <p>Siema! Na codzień, jak na adhd-woca przystało, zajmuję się masą różnych aktywności, z uganianiem się za
         swoją gromadą dzieci po domu na czele. Zawodowo siedzę na maszynach do obróbki metalu i już mi się tam
         nieźle nudzi, dlatego postanowiłem nauczyć się tajemnej sztuki programowania i jestem bardzo ciekaw
-        gdzie mnie to zaprowadzi.</p>
+        gdzie mnie to zaprowadzi!</p>
     </section>
     <section>
       <h2>Notatki z WTF: Co Ten Frontend?!</h2>
@@ -37,7 +46,7 @@
         <p>Nie ma HTML-a bez znaczników. Są to formuły pomiędzy którymi zawarta jest treść i nadają one jej
           odpowiednie znaczenie. Np znacznik “h1” oznacza, że tekst zawarty pomiędzy tymi znacznikami jest
           nagłówkiem poziomu pierwszego. Na tej stronie tym znacznikiem oznaczony jest tekst: “Robert Uba -
-          Strona Domowa”. Znaczniki wpisujemy w ostrych nawiasach ("<>"), które są bardzo znanym elementem
+          Strona Domowa”. Znaczniki wpisujemy w ostrych nawiasach (<> ), które są bardzo znanym elementem
             graficznym związanym z programowaniem. </p>
       </article>
       <article>
@@ -62,26 +71,33 @@
           Jest bardzo pomocny w pracy, bo mając świadomość zapisania ostatniej wersji ułatwia dalszą pracę nad kodem,
           bez strachu, że nie uda wrócić się do stanu poprzedniego gdyby coś poszło nie tak.
           Kolejną strefą zastosowania jest praca grupowa, gdzie dzięki gitowi łatwiej utrzymać porządek w projekcie.
-          Git instaluje się na komputerze. Obecnie oprócz zwykłego GIT-aktórej używa się poprzez terminal systemowy, jest także wersja Git desktop, która staje się obecnie standardem i jest wystarczająca do większości zastosowań.
+          Git instaluje się na komputerze. Obecnie oprócz zwykłego GIT-aktórej używa się poprzez terminal systemowy,
+          jest także wersja Git desktop, która staje się obecnie standardem i jest wystarczająca do większości
+          zastosowań.
           Korzystanie z gita polega w skrócie na Commitowaniu zmian jakie zaszły w projekcie, czyli np. wprowadzenie
           nowego artykułu na stronie, czy znaczące zmiany w kodzie. </p>
       </article>
       <article>
         <h3>GIT-owe podsumowanie</h3>
-      <p><i>Ten artykuł w dokumencie tekstowym powstał w postaci wykropkowanych podpunktów, ale jeszcze nie potrafię tego zrobić w html. Na wszystko przyjdzie czas :)</i><br>GIT pozwala na zarządzanie zmianami w projekcie
-        działa lokalnie
-        do działania zdalnego potrzebny jest serwer - np. GitHub
-        znajomość podstaw Gita jest wymagana niezależnie od technologi
-        Konto na GitHubie jest Twoją programistyczną wizytówka, więc warto o nią dbać aby była ładna i prawdziwa 🙂
-        Commitujemy jak dokładamy jakąś widoczną zmianę do projektu ( lepiej częściej, niż za mało ) 
-        Podstawowy flow ( w terminalu ): git add. / git commit -m “opis zmiany” / git push
+        <p><i>Ten artykuł w dokumencie tekstowym powstał w postaci wykropkowanych podpunktów, ale jeszcze nie potrafię
+            tego zrobić w html. Na wszystko przyjdzie czas :)</i><br>GIT pozwala na zarządzanie zmianami w projekcie
+          działa lokalnie
+          do działania zdalnego potrzebny jest serwer - np. GitHub
+          znajomość podstaw Gita jest wymagana niezależnie od technologi
+          Konto na GitHubie jest Twoją programistyczną wizytówka, więc warto o nią dbać aby była ładna i prawdziwa 🙂
+          Commitujemy jak dokładamy jakąś widoczną zmianę do projektu ( lepiej częściej, niż za mało )
+          Podstawowy flow ( w terminalu ): git add. / git commit -m “opis zmiany” / git push
         </p>
+      </article>
+      <article>
+        <h3><b><u><i>HTML cz.II</i></u></b></h3>
       </article>
     </section>
 
     <footer>
-      <p>Strona domowa Roberta Uby - Nieprogramisty. Wszystkie treści zawarte na stronie są efektem nauki
-        frrontendu ŁADAFAK.</p>
+      <p>Strona domowa Roberta Uby - Nieprogramisty. Wszystkie treści zawarte na stronie są efektem szkolenia <a
+          href="https://cotenfrontend.pl" target="_blank">WTF - Co ten frontend?</a></p>
+      <a href="#top">Powrót na górę</a>🔝.
     </footer>
   </main>
 </body>
