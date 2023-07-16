@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-  color: darkorange;
+  color: darkorange !important;
 }
 
 section {
@@ -20,4 +20,24 @@ body {
 
 .czerwony {
   color: red;
+}
+.h2-headers {
+  color:#00d768;
+}
+.h3-headers {
+  color:#a4698b;
+}
+
+#top {
+  color:cadetblue;
+}
+
+a {
+  color:brown;
+  background: #00d768;
+}
+
+header a {
+  color: rgb(110, 15, 110);
+  background: none;
 }
