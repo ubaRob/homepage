@@ -1,43 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before,*:after {
+  box-sizing: inherit;
+}
+
 h1 {
   color: darkmagenta;
+  padding: 16px;
 }
 
 h2 {
   color: darkorange;
+
 }
 
 section {
   background: lightgoldenrodyellow;
+  padding: 16px;
 }
 
 footer {
   background: lightpink;
+  padding: 16px;
 }
 
 body {
   background: #94bda7;
+  padding: 16px;
 }
 
 .czerwony {
   color: red;
 }
+
 .h2-headers {
-  color:#00d768;
+  color: #00d768;
 }
+
 .h3-headers {
-  color:#a4698b;
+  color: #a4698b;
 }
 
 #top {
-  color:cadetblue;
+  color: cadetblue;
 }
 
 a {
-  color:brown;
+  color: brown;
   background: #00d768;
 }
 
 header a {
   color: rgb(110, 15, 110);
   background: none;
+}
+
+.main-photo {
+  border-radius: 10%;
+  padding: 16px;
+
 }
