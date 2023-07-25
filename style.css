@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h1 #top {
   color: darkmagenta;
   padding: 16px;
 }
@@ -61,4 +61,15 @@ header a {
   border-radius: 10%;
   padding: 16px;
 
+}
+
+.navigation{
+  background-color: #3d0fd3;
+  padding: 16px;
+}
+
+.navigation__link{
+  color:beige;
+  
+  
 }

@@ -5,34 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WTF: zapiski z frontu!</title>
-  <link href="style.css" rel="stylesheet" type="text/css"> 
+  <link href="style.css" rel="stylesheet" type="text/css">
   <link href="normalize.css" rel="stylesheet" type="text/css">
-  <!--<style>
-    * {
-      margin: 0;
-      padding: 0;
-      outline: none;
-      font-size: 16px;
-    }
-  </style>-->  <!--to jest komenda resetu-->
 </head>
 
 <body>
   <header>
-    <nav>
- 
-      <a href="nauka-html-css.html">{HTML/CSS}</a>
-      <a href="nauka-js.html">Java Script</a>
-      
+    <nav class="navigation">
+      <a class="navigation__link" href="nauka-html-css.html">HTML/CSS</a>
+      <a class="navigation__link" href="nauka-js.html">Java Script</a>
     </nav>
   </header>
   <main>
-    <header>
-      <h1 id="top">nieProgramista - Robert Uba - Strona domowa</h1>
-
+    <header class="page-header">
+      <h1 class="page-header__heading page-header__heading--js" id="top">Robert Uba - Strona Domowa</h1>
     </header>
-    <section>
-      <h2 class="h2-headers">Kim jestem?</h2>
+    <section class="section">
+      <h2 class="section__header">Kim jestem?</h2>
       <img class="main-photo" src="charger-inside.jpg" alt="Zdjęcie Roba w Chargerze">
       <p>Siema! Na codzień, jak na adhd-woca przystało, zajmuję się masą różnych aktywności, z uganianiem się za
         swoją gromadą dzieci po domu na czele. Zawodowo siedzę na maszynach do obróbki metalu i już mi się tam
@@ -41,9 +30,7 @@
     </section>
     <section>
       <h2 class="h2-headers">Notatki z WTF: Co Ten Frontend?!</h2>
-
       <p>W tej sekcji znajdują się notatki z mojego wtajemniczania się we Frontend.</p>
-
       <article>
         <h3 class="h3-headers">HTML, czyli opakowanie dla treści.</h3>
         <p>Na początek podstawa podstaw, czyli Hyper Text Markup Language. Nie jest to język programowania, a
@@ -101,6 +88,10 @@
       <article>
         <h3><b><u><i>HTML cz.II</i></u></b></h3>
       </article>
+      <article class="dom-article">
+        <h3 class="dom-article__header dom-article__header--js">Zabwa w DOM</h3>
+        <p class="dom-article__content dom-article__content--js">To jest treść o DOM.</p>
+      </article>
     </section>
 
     <footer>
@@ -109,7 +100,7 @@
       <a href="#top">Powrót na górę🔝</a>.
     </footer>
   </main>
-  <script src="main.js"></script>
+  <script defer src="main.js"></script>
 </body>
 
 </html>
