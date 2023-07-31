@@ -10,44 +10,50 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <nav class="navigation">
       <a class="navigation__link" href="nauka-html-css.html">HTML/CSS</a>
       <a class="navigation__link" href="nauka-js.html">Java Script</a>
+      <a class="navigation__link" href="box-model.html">BOX model</a>
+
     </nav>
   </header>
-  <main>
+  <main class="main">
     <header class="page-header">
       <h1 class="page-header__heading page-header__heading--js" id="top">Robert Uba - Strona Domowa</h1>
     </header>
     <section class="section">
       <h2 class="section__header">Kim jestem?</h2>
       <img class="main-photo" src="charger-inside.jpg" alt="Zdjęcie Roba w Chargerze">
-      <p>Siema! Na codzień, jak na adhd-woca przystało, zajmuję się masą różnych aktywności, z uganianiem się za
+      <p class="paragraph">Siema! Na codzień, jak na adhd-woca przystało, zajmuję się masą różnych aktywności, z
+        uganianiem się za
         swoją gromadą dzieci po domu na czele. Zawodowo siedzę na maszynach do obróbki metalu i już mi się tam
         nieźle nudzi, dlatego postanowiłem nauczyć się tajemnej sztuki programowania i jestem bardzo ciekaw
         gdzie mnie to zaprowadzi!</p>
     </section>
-    <section>
-      <h2 class="h2-headers">Notatki z WTF: Co Ten Frontend?!</h2>
-      <p>W tej sekcji znajdują się notatki z mojego wtajemniczania się we Frontend.</p>
-      <article>
-        <h3 class="h3-headers">HTML, czyli opakowanie dla treści.</h3>
-        <p>Na początek podstawa podstaw, czyli Hyper Text Markup Language. Nie jest to język programowania, a
+    <section class="section">
+      <h2 class="section__header">Notatki z WTF: Co Ten Frontend?!</h2>
+      <p class="paragraph">W tej sekcji znajdują się notatki z mojego wtajemniczania się we Frontend.</p>
+      <article class="article">
+        <h3 class="article__header article__header--js">HTML, czyli opakowanie dla treści.</h3>
+        <p class="paragraph">Na początek podstawa podstaw, czyli Hyper Text Markup Language. Nie jest to język
+          programowania, a
           język znaczników, które służą za odpowiednie opakowanie treści. Niczym kulturysta opakowujący swoje
           ciało mięśniami.</p>
       </article>
-      <article>
-        <h3 class="h3-headers">Znaczniki/TAGI/Elementy</h3>
-        <p>Nie ma HTML-a bez znaczników. Są to formuły pomiędzy którymi zawarta jest treść i nadają one jej
+      <article class="article">
+        <h3 class="article__header article__header--js">Znaczniki/TAGI/Elementy</h3>
+        <p class="paragraph">Nie ma HTML-a bez znaczników. Są to formuły pomiędzy którymi zawarta jest treść i nadają
+          one jej
           odpowiednie znaczenie. Np znacznik “h1” oznacza, że tekst zawarty pomiędzy tymi znacznikami jest
           nagłówkiem poziomu pierwszego. Na tej stronie tym znacznikiem oznaczony jest tekst: “Robert Uba -
-          Strona Domowa”. Znaczniki wpisujemy w ostrych nawiasach (<> ), które są bardzo znanym elementem
-            graficznym związanym z programowaniem. </p>
+          Strona Domowa”. Znaczniki wpisujemy w ostrych nawiasach (&lt > ), które są bardzo znanym elementem
+          graficznym związanym z programowaniem. </p>
       </article>
-      <article>
-        <h3 class="h3-headers">CSS-y</h3>
-        <p class="czerwony">W następnej lekcji poznaję tzw. style czyli CSS. Cascade Style Sheet - Kaskadowe arkusze
+      <article class="article">
+        <h3 class="article__header article__header--js">CSS-y</h3>
+        <p class="paragraph" class="czerwony">W następnej lekcji poznaję tzw. style czyli CSS. Cascade Style Sheet -
+          Kaskadowe arkusze
           stylów.
           CSS odpowiada za prezentację ( wygląd ) treści na stronie. Zbudowany jest z reguł.
           Składnia wygląda o tak:
@@ -57,9 +63,10 @@
           <br> }
         </p>
       </article>
-      <article>
-        <h3>Każdy w IT jest GIT</h3>
-        <p>Git czyli system kontroli wersji napisany, w dosłownie kilka dni(!) przez twórcę Linuxa - Linusa Torvaldsa.
+      <article class="article">
+        <h3 class="article__header article__header--js">Każdy w IT jest GIT</h3>
+        <p class="paragraph">Git czyli system kontroli wersji napisany, w dosłownie kilka dni(!) przez twórcę Linuxa -
+          Linusa Torvaldsa.
           Obecnie jest standardem i każdy twórca oprogramowania winien umieć z niego korzystać. Jest to narzędzie
           służące, mówiąc w skrócie, do zabezpieczania starszych wersji naszego projektu. Dzięki niemu możemy zapobiegać
           różnorakim problemom, które mogą wystąpić w trakcie tworzenia oprogramowania takich jak: program przestał
@@ -73,9 +80,10 @@
           Korzystanie z gita polega w skrócie na Commitowaniu zmian jakie zaszły w projekcie, czyli np. wprowadzenie
           nowego artykułu na stronie, czy znaczące zmiany w kodzie. </p>
       </article>
-      <article>
-        <h3>GIT-owe podsumowanie</h3>
-        <p><i>Ten artykuł w dokumencie tekstowym powstał w postaci wykropkowanych podpunktów, ale jeszcze nie potrafię
+      <article class="article">
+        <h3 class="article__header article__header--js">GIT-owe podsumowanie</h3>
+        <p class="paragraph"><i>Ten artykuł w dokumencie tekstowym powstał w postaci wykropkowanych podpunktów, ale
+            jeszcze nie potrafię
             tego zrobić w html. Na wszystko przyjdzie czas :)</i><br>GIT pozwala na zarządzanie zmianami w projekcie
           działa lokalnie
           do działania zdalnego potrzebny jest serwer - np. GitHub
@@ -85,21 +93,24 @@
           Podstawowy flow ( w terminalu ): git add. / git commit -m “opis zmiany” / git push
         </p>
       </article>
-      <article>
-        <h3><b><u><i>HTML cz.II</i></u></b></h3>
+      <article class="article">
+        <h3 class="article__header article__header--js"><b><u><i>HTML cz.II</i></u></b></h3>
       </article>
-      <article class="dom-article">
-        <h3 class="dom-article__header dom-article__header--js">Zabwa w DOM</h3>
-        <p class="dom-article__content dom-article__content--js">To jest treść o DOM.</p>
+      <article class="article">
+        <h3 class="article__header dom-article__header--js">Zabwa w DOM</h3>
+        <p class="paragraph" class="article__content dom-article__content--js">To jest treść o DOM.</p>
       </article>
     </section>
 
-    <footer>
-      <p>Strona domowa Roberta Uby - Nieprogramisty. Wszystkie treści zawarte na stronie są efektem szkolenia <a
-          href="https://cotenfrontend.pl" target="_blank">WTF - Co ten frontend?</a></p>
-      <a href="#top">Powrót na górę🔝</a>.
+    <footer class="footer">
+      <p class="footer__content">Strona domowa Roberta Uby. Wszystkie treści zawarte na stronie są
+        efektem szkolenia <a href="https://cotenfrontend.pl" target="_blank">WTF - Co ten frontend?</a></p>
+      
     </footer>
+    
+
   </main>
+  <a class="footer__top-link" href="#top">Do góry🔝</a>
   <script defer src="main.js"></script>
 </body>
 

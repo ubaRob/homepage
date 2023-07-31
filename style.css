@@ -2,8 +2,44 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before,*:after {
+*,*:before,*:after {
   box-sizing: inherit;
+}
+
+.article{
+  width: 100%;
+  max-width: 598px;
+  margin: auto;
+}
+
+body {
+  background: #94bda7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.czerwony {
+  color: red;
+}
+
+.display-box {
+  background: #004;
+  color: darkgoldenrod;
+}
+
+.footer {
+  background: lightpink;
+  
+ 
+}
+
+.footer__top-link{
+  position: sticky;
+  bottom: 16px;
+  right: 16px;
+  background: hotpink;
+  border-radius: 5px;
+  padding: 4px;
+  display:inline-block;
 }
 
 h1 #top {
@@ -13,26 +49,6 @@ h1 #top {
 
 h2 {
   color: darkorange;
-
-}
-
-section {
-  background: lightgoldenrodyellow;
-  padding: 16px;
-}
-
-footer {
-  background: lightpink;
-  padding: 16px;
-}
-
-body {
-  background: #94bda7;
-  padding: 16px;
-}
-
-.czerwony {
-  color: red;
 }
 
 .h2-headers {
@@ -43,33 +59,102 @@ body {
   color: #a4698b;
 }
 
-#top {
-  color: cadetblue;
+.header {
+  position: sticky;
+  top: 0px;
+
 }
 
-a {
-  color: brown;
-  background: #00d768;
-}
-
-header a {
+.header_navigation {
   color: rgb(110, 15, 110);
   background: none;
 }
 
-.main-photo {
-  border-radius: 10%;
-  padding: 16px;
-
-}
-
-.navigation{
+.navigation {
   background-color: #3d0fd3;
   padding: 16px;
+  position: sticky;
+  top:0;
+  margin: 0;
+  
 }
 
-.navigation__link{
-  color:beige;
+.navigation__link {
+  color: beige;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: none;
+  position: sticky;
+  top: 0;
+}
+
+.inline-box {
+  background: #004;
+  color: darkgoldenrod;
+  display: inline;
+}
+
+.inline-block-box {
+  background: #004;
+  color: darkgoldenrod;
+  display: inline-block;
+}
+
+.main-photo {
+  display: block;
+  margin: 16px auto;
+  border-radius: 10%;
+  max-width: 100%;
+  border: 20px solid midnightblue;
+}
+
+.main {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+
+
+.one-box {
+  background: #004;
+  color: darkgoldenrod;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.paragraph{
   
-  
+}
+
+.section {
+  background: lightgoldenrodyellow;
+
+}
+
+.section__header {
+
+}
+
+.test-div {
+  background: peru;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+#top {
+  color: cadetblue;
+}
+
+
+
+.width-height-box {
+  background: #004;
+  color: darkgoldenrod;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
 }

@@ -7,20 +7,23 @@ console.log(`Cześć! Nazywam się ${firstName} i mam ${age} lata :)`);
 
 const header = document.querySelector('.page-header__heading--js')
 
-const domArticle = document.querySelector('.dom-article__header--js')
+const domHeader = document.querySelector('.dom-article__header--js')
 
 const domArticleContent = document.querySelector('.dom-article__content--js')
 
-console.log(domArticle.innerHTML)
+console.log(domHeader.innerHTML)
 console.log(domArticleContent.innerHTML)
 
-domArticle.innerHTML = "DOM-owe przedszkole"
+domHeader.innerHTML = "Nagłówek napisany w JS"
 
-domArticleContent.innerHTML = "Aby zadeklarować zmienną const w JS nie możemy używaźć w tym celu kebab-case. Nie wiem czemu, ale mi nie działa"
+domArticleContent.innerHTML = "Ta treść została napisana przy pomocy DOM w JS<br> Pokolorwana również."
 
 console.log(header.innerHTML)
 
-console.log(header.style)
+console.log(domHeader.style)
+
+domHeader.style.color = 'red';
+domArticleContent.style.color = 'pink';
 
 
 

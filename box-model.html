@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="nauka-html-css.html">HTML/CSS</a>
+            <a href="box-model.html">BOX model</a>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1>Życie w Pudełku</h1>
+        </header>
+        <section>
+            <article>
+                <h2>display & overflow</h2>
+                <p>Korzystając ze znacznika DIV, który nie ma znaczenia semantycznego i służy do tworzenia pustego elementu, tworzymy jakąś treść i opakowujemy ją tym divem, aby nadać jej pewną strukturę/kształt. Torzę div o klasie box i treści "div".</p>
+                <div class="one-box">DIV</div>
+                <p>Domyślny DISPLAY - BLOCK</p>
+                <div class="display-box">display DIV</div>
+                <div class="display-box">display DIV</div>
+                <div class="display-box">display DIV</div>
+                <div class="display-box">display DIV</div>
+                <div class="display-box">display DIV</div>
+                <p>display:inline</p>
+                <div class="inline-box">display DIV</div>
+                <div class="inline-box">display DIV</div>
+                <div class="inline-box">display DIV</div>
+                <div class="inline-box">display DIV</div>
+                <div class="inline-box">display DIV bardzo dużo lorem ipsum treści, któa wykracza poza szerokość strony i widzimy co się dzieje, w takim przypadku</div>
+                <p>display:inline-block</p>
+                <div class="inline-block-box">display DIV</div>
+                <div class="inline-block-box">display DIV</div>
+                <div class="inline-block-box">display DIV</div>
+                <div class="inline-block-box">display DIV</div>
+                <div class="inline-block-box">display DIV bardzo dużo lorem ipsum treści, któa wykracza poza szerokość strony i widzimy co się dzieje, w takim przypadku display DIV bardzo dużo lorem ipsum treści, któa wykracza poza szerokość strony i widzimy co się dzieje, w takim przypadku</div>
+                
+            </article>
+            <article>
+                <h2>inline-block a width height</h2>
+                <p>Właśność width służy do określania szerokości kontenera a height do jego wysokości.</p>
+                <div class="width-height-box">display DIV</div>
+                <div class="width-height-box">display DIV</div>
+                <div class="width-height-box">display DIV</div>
+                <div class="width-height-box">display DIV</div>
+                <div class="width-height-box">display DIV</div>
+                <p>Dzięki inline-block nasze boxy zachowują się w sposób dwojaki. Sam display block, ustawia każdy kontener pod sobą, natomiast display inline, ustawia boxy obok siebie, ale nie działąją w nich właśności width i height.</p>
+                
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>
