@@ -15,12 +15,12 @@ domHeader.innerHTML = "Nagłówek stworzony dzięki DOM w JS"
 console.log(domHeader.innerHTML)
 
 const domContentArticle = document.querySelector('.dom-article__content--js')
-domContentArticle.innerHTML = 'Ta treść powstała w JS dzięki DOM'
+domContentArticle.innerHTML = 'Ta treść powstała w JS dzięki DOM, a nagłówek to nawet pokolorowany został!'
 console.log(domContentArticle.innerHTML)
 
-//console.log(domHeader.style)
 
-domHeader.style.color = 'pink';
+
+
 
 
 
