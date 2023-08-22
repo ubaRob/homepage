@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>JS</title>
+  <link href="style-2.css" rel="stylesheet" type="text/css">
   <link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -13,18 +13,60 @@
   <header class="header">
     <nav class="navigation">
       <a class="navigation__link" href="index.html">Strona główna</a>
-
       <a class="navigation__link" href="nauka-html-css.html">HTML/CSS</a>
-
     </nav>
   </header>
-  <main>
-    Lots of
-    treść!<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Lots
-    of
-    treść!<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>LOT
-    of treść
+  <main class="main">
+    <header class="page-header">
+      <h1 class="page-header__heading page-header__heading--js" id="top" style="color:black; background: yellow;">JavaScript</h1>
+      <section class="section">
+        <h2 class="section__header">Nauka JS</h2>
+        <p class="paragraph">W tej sekcji znajdują się notatki z nauki JS-a.</p>
+        <article class="article">
+          <h3 class="article__header article__header--js">Funkcje w <div style="color:black; background: yellow;">JavaScript</div></h3>
+          <p class="paragraph">Na początku nauki JavaScript-u (JS-a), korzystaliśmy już podstawowych funckji typu 'alert' lub 'console.log'.
+            Teraz przyszedł czas na zajęcie się funkcjami z krwi i kości. 
+            <br><br>
+            <strong>Podstawowa funckja w JS wygląda tak:</strong><br><img class="article__image" src="js-function-1.jpg" alt="funkcja-js">
+            <br>
+            
+            <p class="paragraph"></p>
+            <br> - Na wejściu dostaje dane - argumenty. ( camelCase)
+            <br> - Dla podanego argumentu podaje jakąś wartość.
+            <br> - Posiada określony wzór. <br></p>
+            <img class="article__image" src="js-2.png" alt="funkcja-opisana">
+            <p class="paragraph"><strong>Return:</strong>definiuje nam wynik funkcji. Może występować w funckji, ale nie musi. Jak go nie zdefiniujemy to funkcja zwróci nam - <b>undefined</b>. </p>
+            <p class="paragraph">Ciało funkcji. Fukcja JS posiada nawiasy klamrowe, które wyznaczją ciało funkcji.</p>
+            W ciele funckji może być zawarte wiele rzeczy/składników, które określają nam jej działanie. Np:
+            <img class="article__image" src="function-body.jpg" alt="cialo-funkcji">
+            <p class="paragraph">W pierwszej linii w ciele f-kcji modyfikujemy nasz argument i przypisujemy mu nową wartość. W kolejnej linii wypisujemy nową wartość, a w ostatniej linii definiujemy wynik działania funckji. </p>
+            Aby konsola wypisała nam jakiś wynik działania musimy wprowadzić argument np warotść '1'.
+            Robimy to za pomocą naszej zadeklarowanej funckji calculate i w nawiasie wpisujemy 1.
+            W tym momencie na konsoli otrzymamy wynik 5, ponieważ nasza funkcja wpierw modyfikuje naszą wartość o +4,a następnie poprzez polecenie console.log(myNumber) nasza wartość jest wypisywana na konsoli.
+            Aby otrzymać wynik działania naszej funckji musimy wykonać jedno z tych działań: 
+            - zadeklarować zmienną np. "result", pod którą będziemy otrzymywać wynik i przypisać ją do funckji calculate(1),[const result = calculate(1),] a następnie wypisać polecenie console.log(result). W tym momencie konsola wypisze nam najpierw naszą wprowadzoną wartość zmodyfikowaną o +4( ponieważ zadziała znowu console.log znajdujący się w ciele funckji), a nastpęnie otrzymamy wynik działania funcji, w naszym przypadku dla wartości 1 będzie to 35. 
+            - drugi sposób pomija deklarowanie zmiennej "result" i wypisując console.log(calculate(1)); otrzymamy wynik działania funckji dla wartości'1'.
+            <h4 class="article__subheader">Funkcja w JS:</h4>
+            Deklarujemy nazwę funckji ( nie zawsze).
+            W środku dokonujemy obliczeń/wykonujemy zadania.
+            Funkcja przyjmuje argumenty(ale nie musi).
+            Funkcja zawsze zwraca coś( nawet jeśli nie mamy return - wtedy funkcja zwraca - undefined).
+<p class="paragraph"> function hello() {
+  console.log('hello')
+  console.log('hello')
+}
+
+hello(); >>> hello hello
+console.log(hello()) >>> undefined.</p>
+Po co funkcje?
+
+            
+          </p>
+        </article>
+    </header>
+
   </main>
+  
 
 </body>
 
