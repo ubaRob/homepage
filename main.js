@@ -75,22 +75,43 @@ const result3 = calculate3(2);
 
 console.log(result3);
 
-function welcome (name, age2){
-    console.log (name)
-    console.log (age2)
-    return (`Witaj ${name}! masz ${age2} lat!`)
+//HOMEWORK V 
+
+function greet (name, age2){
+    console.log (name, age2)
+  
+    return `Witaj ${name}! masz ${age2} lat!`
 }
 
-welcome('Robert', +35);
-//welcome(35);
+greet('Robert', +33);
+//greet(35);
 
-console.log(welcome('Robert', +35));
+console.log(greet('Robert', +35));
 
-console.log(welcome('Monika', +34));
+console.log(greet('Monika', +34));
 
-const result4 = welcome('Bart', +16);
+const result4 = greet('Bart', +16);
 
 console.log(result4)
+
+const resultGreet = greet('Iwona', +59);
+
+console.log(resultGreet);
+
+//HOMEWORK V MKorsan Solution
+
+const greetTwo = (name, age) =>{
+    const greetTwoResult = `Witaj ${name}! Masz ${age} lat.`
+    return greetTwoResult
+}
+const greeting = greetTwo('Greg', 56)
+
+console.log(greetTwo('Bob', 76));
+ console.log(greeting)
+
+ const greetThree = (nameTwo, ageTwo) => `Witaj ${nameTwo}! Masz ${ageTwo}.`
+
+ console.log(greetThree('John', 5));
 
 
 
